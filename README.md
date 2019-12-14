@@ -9,6 +9,8 @@ Two general purpose pins on a panel when the state of either of them is changed 
 
 If you understood the code you may customize it as you like.
 
+The code I will be putting is for 2 pins communicated thru their panel to another 2 pins on another panel.
+
 Any questions are welcome.
 
 One day I may make a video about it. In fact one video is already made. check my profile for a vimeo link.
