@@ -19,3 +19,4 @@ In general, it's about Arduino IDE for esp8266 code for the 2 panels, some Desig
 The Intermediate server has an SQLite database for authentication... System is robust.
 
 BTW, the system supports local communication, thus without the intermediate server.
+When you'll try it, you'll gonna love it.
