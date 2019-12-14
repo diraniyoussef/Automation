@@ -1,4 +1,4 @@
-# Automation2GPpins
+# Automation
 automation - communication between 2 panels (extendable) and an android mobile app can monitor the system.
 
 So impressive project. I'm so proud to share it with you ! It may outcome some commercial products...
