@@ -14,3 +14,7 @@ The code I will be putting is for 2 pins communicated thru their panel to anothe
 Any questions are welcome.
 
 One day I may make a video about it. In fact one video is already made. check my profile for a vimeo link.
+
+In general, it's about Arduino IDE for esp8266 code for the 2 panels, some DesignSpark electronics files, android studio code for the mobile app, and a java standalone app for the intermediate (relay) server in the middle that will assure communication of the 2 panels and the mobile app.
+
+BTW, the system supports local communication, thus without the intermediate server.
