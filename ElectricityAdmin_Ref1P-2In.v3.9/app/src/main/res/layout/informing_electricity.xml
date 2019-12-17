@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusable="true"
+    android:focusableInTouchMode="true">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp">
+
+                <Button
+                    android:id="@+id/inform_elec_button_refresh"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:text="Refresh"
+                    android:background="@drawable/button_generic"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:visibility="visible">
+
+                <EditText
+                    android:id="@+id/inform_elec_editText0"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="55dp"
+                    android:layout_marginStart="55dp"
+                    android:gravity="center"
+                    android:inputType="textMultiLine"
+                    android:text="Electricity" />
+
+                <TextView
+                    android:id="@+id/inform_elec_textView0"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="75dp"
+                    android:layout_marginRight="75dp"
+                    android:background="@android:color/darker_gray"
+                    android:gravity="center"
+                    android:text="Status" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:visibility="visible">
+
+                <EditText
+                    android:id="@+id/inform_elec_editText1"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="55dp"
+                    android:layout_marginStart="55dp"
+                    android:gravity="center"
+                    android:inputType="textMultiLine"
+                    android:text="Generator" />
+
+                <TextView
+                    android:id="@+id/inform_elec_textView1"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="75dp"
+                    android:layout_marginRight="75dp"
+                    android:background="@android:color/darker_gray"
+                    android:gravity="center"
+                    android:text="Status" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:visibility="gone">
+
+                <EditText
+                    android:id="@+id/inform_elec_editText2"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="55dp"
+                    android:layout_marginStart="55dp"
+                    android:gravity="center"
+                    android:inputType="textMultiLine"
+                    android:text="Corridor" />
+
+                <TextView
+                    android:id="@+id/inform_elec_textView2"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="75dp"
+                    android:layout_marginRight="75dp"
+                    android:gravity="center"
+                    android:text="Status" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:visibility="gone">
+
+                <EditText
+                    android:id="@+id/inform_elec_editText3"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="55dp"
+                    android:layout_marginStart="55dp"
+                    android:gravity="center"
+                    android:inputType="textMultiLine"
+                    android:text="Corridor" />
+
+                <TextView
+                    android:id="@+id/inform_elec_textView3"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="75dp"
+                    android:layout_marginRight="75dp"
+                    android:gravity="center"
+                    android:text="Status" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:visibility="gone">
+
+                <EditText
+                    android:id="@+id/inform_elec_editText4"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="55dp"
+                    android:layout_marginStart="55dp"
+                    android:gravity="center"
+                    android:inputType="textMultiLine"
+                    android:text="Corridor" />
+
+                <TextView
+                    android:id="@+id/inform_elec_textView4"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="75dp"
+                    android:layout_marginRight="75dp"
+                    android:gravity="center"
+                    android:text="Status" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:visibility="gone">
+
+                <EditText
+                    android:id="@+id/inform_elec_editText5"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="55dp"
+                    android:layout_marginStart="55dp"
+                    android:gravity="center"
+                    android:inputType="textMultiLine"
+                    android:text="Corridor" />
+
+                <TextView
+                    android:id="@+id/inform_elec_textView5"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="75dp"
+                    android:layout_marginRight="75dp"
+                    android:gravity="center"
+                    android:text="Status" />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</android.support.constraint.ConstraintLayout>
