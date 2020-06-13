@@ -220,8 +220,9 @@ class CommunicateWithServer {
                             int bufferCharIndex = 0;
                             s = "";
                             try {
-                                readCharAsInt = bufferedReader.read();
-                                //The following "while" block, as I believe, reads the whole buffer. So I don't think I need to flush it ever more!
+                                //Not sure : So I don't think I need to flush it ever more!
+                                //The following read() blocks the flow, as I believe. But I've used ready() beforehand; it's deterministic not best effort.
+                                readCharAsInt = bufferedReader.read();                               
                                 while (readCharAsInt != -1 && bufferCharIndex < bufferSize) {
                                     //SocketConnection.client.getChannel().position(0);
                                     bufferCharIndex++;
